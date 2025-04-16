@@ -1,0 +1,230 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '50578366943@s.whatsapp.net',
+    fromMe: false,
+    id: '9EC46E037197AB07F83E7057053264CE',
+    participant: undefined
+  },
+  messageTimestamp: 1744770819,
+  pushName: 'juniorjsolis',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Juniordev',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Juniordev',
+  from: '50578366943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fef20e14-d1e7-4105-b011-7a7f4a90a5dd',
+  keyword: 'key_ab1c243e-8fa0-471c-8602-98a8ab56bd44',
+  answer: 'Hello soy el bot JuniorDev 🤖, a continuación tienes las siguientes opciones:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'ee799625f1fcce005bc8c2253c4604dd'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_976e7f0d-2647-41bb-9b97-5c686bfeb736',
+  keyword: 'ans_fef20e14-d1e7-4105-b011-7a7f4a90a5dd',
+  answer: '📋 *Menú Principal*\n' +
+    '\n' +
+    '1️⃣ Escribe *web* para ver nuestra página web 🌐\n' +
+    '2️⃣ Escribe *gasto* para registrar un gasto en la base de datos 📝\n' +
+    '3️⃣ Escribe *tiktok* para ver mi perfil en TikTok 😎📱\n' +
+    '\n' +
+    '💬 *¿Qué opción deseas usar?* Escribe la palabra clave correspondiente.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f23b213aed610c5900b3f672403b32e4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50578366943@s.whatsapp.net',
+    fromMe: false,
+    id: '45B8A317D759FFC4BA644F38D92EFFE8',
+    participant: undefined
+  },
+  messageTimestamp: 1744770836,
+  pushName: 'juniorjsolis',
+  broadcast: false,
+  message: Message {
+    conversation: 'Gasto',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Gasto',
+  from: '50578366943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_75ba3e66-a75b-4994-aeb8-233fff35a954',
+  keyword: 'key_3ba24b48-ab2b-42be-8525-d9e108a6e3bb',
+  answer: ' Vamos a registrar un gasto. ✍️',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c556322c497d8e0dcb903b5b95fa75a7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_65e854cd-a73c-4d0b-bfb3-73fa111ba294',
+  keyword: 'ans_75ba3e66-a75b-4994-aeb8-233fff35a954',
+  answer: '¿Cuál es el nombre del gasto que deseas registrar: 🫡?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e045294f637927363966a496323a4edf'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50578366943@s.whatsapp.net',
+    fromMe: false,
+    id: 'AE34026300D6C77ECA649F85DCF3F228',
+    participant: undefined
+  },
+  messageTimestamp: 1744770857,
+  pushName: 'juniorjsolis',
+  broadcast: false,
+  message: Message {
+    conversation: 'Carne de res',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Carne de res',
+  from: '50578366943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a73ed12b-6588-4fc0-a85f-b8f7e7d8fe15',
+  keyword: 'ans_65e854cd-a73c-4d0b-bfb3-73fa111ba294',
+  answer: '¿Cuál es el valor del gasto : 🤑🫰?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '32e08f53a87b227b98c0cec17fe0aaaa'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50578366943@s.whatsapp.net',
+    fromMe: false,
+    id: '20496FA7A3D14F8E1A11F1271F2C8657',
+    participant: undefined
+  },
+  messageTimestamp: 1744770866,
+  pushName: 'juniorjsolis',
+  broadcast: false,
+  message: Message {
+    conversation: '9,000',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '9,000',
+  from: '50578366943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_debaa921-ede6-4c7d-ba71-f027a80246e5',
+  keyword: 'ans_a73ed12b-6588-4fc0-a85f-b8f7e7d8fe15',
+  answer: '¿Cuál es la categoría del gasto : 📃?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '9c27c45419a5e1f413018e478c3a25b2'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50578366943@s.whatsapp.net',
+    fromMe: false,
+    id: '9586634CE66011262CB2B6F4D70BEAB4',
+    participant: undefined
+  },
+  messageTimestamp: 1744770873,
+  pushName: 'juniorjsolis',
+  broadcast: false,
+  message: Message {
+    conversation: 'Carne de res',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Carne de res',
+  from: '50578366943'
+}
